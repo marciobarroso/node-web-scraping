@@ -74,3 +74,6 @@ typings/
 
 # webstorm
 .idea
+
+administrators.xlsx
+build

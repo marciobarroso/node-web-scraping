@@ -18,7 +18,10 @@
     "node": "8.9.4"
   },
   "dependencies": {
-    "http-status": "^1.1.0"
+    "cheerio": "^1.0.0-rc.2",
+    "excel4node": "^1.4.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
