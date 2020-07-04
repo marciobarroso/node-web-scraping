@@ -1,12 +1,5 @@
-NPM_BIN=./node_modules/.bin
-TEST_ENV=NODE_ENV=test NODE_PATH=./src:./test
-NODE_ENV ?= dev
-
 clean:
 	rm -rf ./build ./administrators.xlsx
 
-build: clean
-	$(NPM_BIN)/babel src -d ./build
-
-start: build
-	NODE_ENV=$(NODE_ENV) NODE_PATH=./build node --max-old-space-size=8192 ./build/index.js --presets es2015,stage-2
+start:
+	node --max-old-space-size=8192 ./src/index.js
