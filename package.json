@@ -19,7 +19,7 @@
 	},
 	"dependencies": {
 		"cheerio": "^1.0.0-rc.2",
-		"excel4node": "^1.4.0",
+		"excel4node": "^1.8.0",
 		"request": "^2.87.0",
 		"request-promise": "^4.2.2"
 	},
