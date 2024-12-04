@@ -1,121 +1,106 @@
-const request = require('request-promise')
-const cheerio = require('cheerio')
-const excel = require('excel4node')
+const axios = require('axios');
+const XLSX = require('xlsx');
+const fs = require('fs');
+const json = require('./configurations.json')
 
-const getURL = (id) => `http://www.condominios.cl/redes_redadm_ficha.php?id=ObrnZFkMSIOLyV0s66W9&w=${id}`
-
-const getParsedInformation = async (id) => {
-	const option = {
-		uri: getURL(id),
-		transform: (body) => {
-			return cheerio.load(body)
-		}
-	}
-
-	const $ = await request(option)
-	const item = {
-		name: getName($),
-		profession: getProfession($),
-		address: getAddress($),
-		phone: getPhone($),
-		email: getEmail($),
-		site: getSite($),
-		region: getRegion($),
-		services: getServices($),
-		url: getURL(id)
-	}
-
-	if (item && item.name && item.name !== '') {
-		return item
-	} else {
-		return
-	}
+const getRegionById = (id) => {
+  let found = null
+  for( const region of json.configurations.regions ) {
+    if( region.id == id ) {
+      found = region
+      break
+    }
+  }
+  return found
 }
 
-const createSpreadsheet = async (data) => {
-	var workbook = new excel.Workbook()
-	var worksheet = workbook.addWorksheet('Adminitrators')
-	var worksheetIndex = 1
-
-	worksheet.cell(worksheetIndex, 1).string('Name')
-	worksheet.cell(worksheetIndex, 2).string('Profession')
-	worksheet.cell(worksheetIndex, 3).string('Address')
-	worksheet.cell(worksheetIndex, 4).string('Phone')
-	worksheet.cell(worksheetIndex, 5).string('E-mail')
-	worksheet.cell(worksheetIndex, 6).string('Site')
-	worksheet.cell(worksheetIndex, 7).string('Region')
-	worksheet.cell(worksheetIndex, 8).string('Services')
-	worksheet.cell(worksheetIndex++, 9).string('URL')
-
-	for (var index = 0; index < data.length; index++) {
-		var item = data[index]
-
-		if (item && item.name && item.email) {
-			worksheet.cell(worksheetIndex, 1).string(item.name)
-			worksheet.cell(worksheetIndex, 2).string(item.profession)
-			worksheet.cell(worksheetIndex, 3).string(item.address)
-			worksheet.cell(worksheetIndex, 4).string(item.phone)
-			worksheet.cell(worksheetIndex, 5).string(item.email)
-			worksheet.cell(worksheetIndex, 6).string(item.site)
-			worksheet.cell(worksheetIndex, 7).string(item.region)
-			worksheet.cell(worksheetIndex, 8).string(item.services)
-			worksheet.cell(worksheetIndex++, 9).string(item.url)
-		}
-	}
-
-	workbook.write('administrators.xlsx')
-}
-;(async () => {
-	var data = []
-
-	for (var index = 1; index < 1000; index++) {
-		var item = await getParsedInformation(index)
-
-		if (item && item.name && item.name !== '') {
-			console.log(`${index} ${item.name} ${item.email}`)
-			data.push(item)
-		}
-	}
-
-	await createSpreadsheet(data)
-})()
-
-const getBaseSelector = () =>
-	'table tbody tr td table tbody tr td table tbody tr td table tbody tr td table tbody tr:nth-child(3) td table tbody tr td:nth-child(3) table'
-
-const getText = ($, selector) => {
-	const selectorBase = getBaseSelector()
-	return $(selectorBase + ' ' + selector).text()
+const getCommuneById = (id) => {
+  let found = null
+  for( const commune of json.configurations.communes ) {
+    if( commune.id == id ) {
+      found = commune
+      break
+    }
+  }
+  return found
 }
 
-const getHtml = ($, selector) => {
-	const selectorBase = getBaseSelector()
-	return $(selectorBase + ' ' + selector).html()
+async function fetchAndProcessData() {
+  const getURL = (id) => `https://condominios-api.minvu.cl/administradores/${id}`
+  const data = []; // Array para armazenar os dados
+
+  for (let id = 1; id <= 1260; id++) {
+    try {
+      // Fazer a requisição HTTP
+      const response = await axios.get(getURL(id));
+
+      // Garantir que o formato seja JSON
+      const user = response.data;
+
+      // Extrair os campos específicos
+      const { nombres, apellido_uno, apellido_dos, rut, email, telefono_uno, telefono_dos, calle, calle_numeracion, id_region, id_comuna, solicitudAdministradorNatural, solicitudAdministradorJuridico } = user;
+      if (nombres) {
+        data.push(
+          { ID: id,
+            Name: nombres,
+            Lastname: (apellido_uno + ' ' + apellido_dos).trim(),
+            RUT: rut,
+            Email: email,
+            Phone_1: telefono_uno ? telefono_uno : '',
+            Phone_2: telefono_dos ? telefono_dos : '',
+            Address: calle + ', ' + calle_numeracion,
+            Commune: getCommuneById(id_comuna).name,
+            Region: getRegionById(id_region).name,
+            Gender: solicitudAdministradorNatural ? solicitudAdministradorNatural.sexo : solicitudAdministradorJuridico ? solicitudAdministradorJuridico.sexo : null
+          });
+      }
+    } catch (error) {
+      console.error(`Erro ao processar ID ${id}: ${error.message}`);
+    }
+  }
+
+  fs.writeFile("data.json", JSON.stringify(data, null, 2), "utf8", (err) => {
+    if (err) {
+      console.error("Erro ao escrever no arquivo:", err);
+    } else {
+      console.log("Arquivo salvo com sucesso!");
+    }
+  });
+
+  return
+
+  // Gerar arquivo Excel
+  const worksheet = XLSX.utils.json_to_sheet(data);
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, worksheet, 'Usuários');
+
+  // Salvar arquivo
+  const filePath = 'users.xlsx';
+  XLSX.writeFile(workbook, filePath);
+  console.log(`Arquivo Excel gerado: ${filePath}`);
 }
 
-const getName = ($) => $('td.foro_titulo_foro').text()
+// Executar a função
+fetchAndProcessData();
 
-const getProfession = ($) => getHtml($, 'tbody tr td:nth-child(2)')
+const filterData = () => {
+  const data = require('../data.json')
+  const filteredData = []
 
-const getAddress = ($) => getHtml($, 'tbody tr:nth-child(2) td:nth-child(2)')
+  for( const contact of data) {
+    if( contact.Region === 'METROPOLITANA DE SANTIAGO' ) {
+      filteredData.push(contact)
+    }
+  }
 
-const getPhone = ($) => getHtml($, 'tbody tr:nth-child(3) td:nth-child(2)')
-
-const getEmail = ($) => getText($, 'tbody tr:nth-child(4) td:nth-child(2) a')
-
-const getSite = ($) => getText($, 'tbody tr:nth-child(5) td:nth-child(2) a')
-
-const getRegion = ($) => {
-	const text = getHtml($, 'tbody tr:nth-child(6) td div')
-	if (!text || text === '') return ''
-	return text
-		.replace('<strong>Ciudades / Sectores en los que se desempe&#xF1;a: </strong><br>', '')
-		.replace('&#xA0;<br>', '')
-		.replace(/\s*/g, '')
+  fs.writeFile("administradores-region-metropolitana.json", JSON.stringify(filteredData, null, 2), "utf8", (err) => {
+    if (err) {
+      console.error("Erro ao escrever no arquivo:", err);
+    } else {
+      console.log("Arquivo salvo com sucesso!");
+    }
+  });
 }
 
-const getServices = ($) => {
-	const text = getHtml($, 'tbody tr:nth-child(6) td p')
-	if (!text || text === '') return ''
-	return text.replace(/<br>\s*/g, '')
-}
+// filterData()
+

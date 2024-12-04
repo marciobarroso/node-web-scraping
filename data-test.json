@@ -1,0 +1,54 @@
+[
+  {
+    "ID": 1,
+    "Name": "MÁRCIO",
+    "Lastname": "ALVES BARROSO",
+    "RUT": "99999999",
+    "Email": "marciobarroso@gmail.com",
+    "Phone_1": "56962329711",
+    "Phone_2": "",
+    "Address": "Las cruces , 801",
+    "Commune": "LOS ANGELES",
+    "Region": "BIOBÍO",
+    "Gender": "MASCULINO"
+  },
+  {
+    "ID": 1,
+    "Name": "ALEJANDRO RAMON",
+    "Lastname": "BRAVO PARRA",
+    "RUT": "99999999",
+    "Email": "alejandrobravo9@gmail.com",
+    "Phone_1": "56962329711",
+    "Phone_2": "",
+    "Address": "Las cruces , 801",
+    "Commune": "LOS ANGELES",
+    "Region": "BIOBÍO",
+    "Gender": "MASCULINO"
+  },
+  {
+    "ID": 1,
+    "Name": "VANNIATH LIZBETH",
+    "Lastname": "ZAPATA YOVERA",
+    "RUT": "99999999",
+    "Email": "Vanniath.yovera1627@gmail.com",
+    "Phone_1": "56962329711",
+    "Phone_2": "",
+    "Address": "Las cruces , 801",
+    "Commune": "LOS ANGELES",
+    "Region": "BIOBÍO",
+    "Gender": "FEMININO"
+  },
+  {
+    "ID": 1,
+    "Name": "JESUS ALBERTO",
+    "Lastname": "SANTIAGO MOLINA",
+    "RUT": "99999999",
+    "Email": "jesussantiago88@gmail.com",
+    "Phone_1": "56962329711",
+    "Phone_2": "",
+    "Address": "Las cruces , 801",
+    "Commune": "LOS ANGELES",
+    "Region": "BIOBÍO",
+    "Gender": "MASCULINO"
+  }
+]

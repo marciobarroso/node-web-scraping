@@ -1,0 +1,1676 @@
+{
+  "configurations": {
+    "regions": [
+      {
+        "id": 1,
+        "name": "TARAPACÁ",
+        "full_name": "REGIÓN DE TARAPACÁ",
+        "geo_order": 2
+      },
+      {
+        "id": 2,
+        "name": "ANTOFAGASTA",
+        "full_name": "REGIÓN DE ANTOFAGASTA",
+        "geo_order": 3
+      },
+      {
+        "id": 3,
+        "name": "ATACAMA",
+        "full_name": "REGIÓN DE ATACAMA",
+        "geo_order": 4
+      },
+      {
+        "id": 4,
+        "name": "COQUIMBO",
+        "full_name": "REGIÓN DE COQUIMBO",
+        "geo_order": 5
+      },
+      {
+        "id": 5,
+        "name": "VALPARAÍSO",
+        "full_name": "REGIÓN DE VALPARAÍSO",
+        "geo_order": 6
+      },
+      {
+        "id": 6,
+        "name": "LIBERTADOR GENERAL BERNARDO O'HIGGINS",
+        "full_name": "REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS",
+        "geo_order": 8
+      },
+      {
+        "id": 7,
+        "name": "MAULE",
+        "full_name": "REGIÓN DEL MAULE",
+        "geo_order": 9
+      },
+      {
+        "id": 8,
+        "name": "BIOBÍO",
+        "full_name": "REGIÓN DEL BIOBÍO",
+        "geo_order": 11
+      },
+      {
+        "id": 9,
+        "name": "LA ARAUCANÍA",
+        "full_name": "REGIÓN DE LA ARAUCANÍA",
+        "geo_order": 12
+      },
+      {
+        "id": 10,
+        "name": "LOS LAGOS",
+        "full_name": "REGIÓN DE LOS LAGOS",
+        "geo_order": 14
+      },
+      {
+        "id": 11,
+        "name": "AYSÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO",
+        "full_name": "REGIÓN DE AYSÉN DEL GENERAL CARLOS IBAÑEZ DEL CAMPO",
+        "geo_order": 15
+      },
+      {
+        "id": 12,
+        "name": "MAGALLANES Y ANTÁRTICA CHILENA",
+        "full_name": "REGIÓN DE MAGALLANES Y ANTÁRTICA CHILENA",
+        "geo_order": 16
+      },
+      {
+        "id": 13,
+        "name": "METROPOLITANA DE SANTIAGO",
+        "full_name": "REGIÓN METROPOLITANA DE SANTIAGO",
+        "geo_order": 7
+      },
+      {
+        "id": 14,
+        "name": "LOS RÍOS",
+        "full_name": "REGIÓN DE LOS RÍOS",
+        "geo_order": 13
+      },
+      {
+        "id": 15,
+        "name": "ARICA Y PARINACOTA",
+        "full_name": "REGIÓN DE ARICA Y PARINACOTA",
+        "geo_order": 1
+      },
+      {
+        "id": 16,
+        "name": "ÑUBLE",
+        "full_name": "REGIÓN DE ÑUBLE",
+        "geo_order": 10
+      }
+    ],
+    "communes": [
+      {
+        "id": 1,
+        "name": "IQUIQUE"
+      },
+      {
+        "id": 2,
+        "name": "CAMIÑA"
+      },
+      {
+        "id": 3,
+        "name": "COLCHANE"
+      },
+      {
+        "id": 4,
+        "name": "HUARA"
+      },
+      {
+        "id": 5,
+        "name": "PICA"
+      },
+      {
+        "id": 6,
+        "name": "POZO ALMONTE"
+      },
+      {
+        "id": 7,
+        "name": "ALTO HOSPICIO"
+      },
+      {
+        "id": 8,
+        "name": "ARICA"
+      },
+      {
+        "id": 9,
+        "name": "CAMARONES"
+      },
+      {
+        "id": 10,
+        "name": "PUTRE"
+      },
+      {
+        "id": 11,
+        "name": "GENERAL LAGOS"
+      },
+      {
+        "id": 12,
+        "name": "POZO ALMONTE"
+      },
+      {
+        "id": 13,
+        "name": "CAMIÑA"
+      },
+      {
+        "id": 14,
+        "name": "COLCHANE"
+      },
+      {
+        "id": 15,
+        "name": "HUARA"
+      },
+      {
+        "id": 16,
+        "name": "PICA"
+      },
+      {
+        "id": 17,
+        "name": "ANTOFAGASTA"
+      },
+      {
+        "id": 18,
+        "name": "MEJILLONES"
+      },
+      {
+        "id": 19,
+        "name": "SIERRA GORDA"
+      },
+      {
+        "id": 20,
+        "name": "TALTAL"
+      },
+      {
+        "id": 21,
+        "name": "CALAMA"
+      },
+      {
+        "id": 22,
+        "name": "OLLAGUE"
+      },
+      {
+        "id": 23,
+        "name": "SAN PEDRO DE ATACAMA"
+      },
+      {
+        "id": 24,
+        "name": "TOCOPILLA"
+      },
+      {
+        "id": 25,
+        "name": "MARIA ELENA"
+      },
+      {
+        "id": 26,
+        "name": "COPIAPO"
+      },
+      {
+        "id": 27,
+        "name": "CALDERA"
+      },
+      {
+        "id": 28,
+        "name": "TIERRA AMARILLA"
+      },
+      {
+        "id": 29,
+        "name": "CHAÑARAL"
+      },
+      {
+        "id": 30,
+        "name": "DIEGO DE ALMAGRO"
+      },
+      {
+        "id": 31,
+        "name": "VALLENAR"
+      },
+      {
+        "id": 32,
+        "name": "ALTO DEL CARMEN"
+      },
+      {
+        "id": 33,
+        "name": "FREIRINA"
+      },
+      {
+        "id": 34,
+        "name": "HUASCO"
+      },
+      {
+        "id": 35,
+        "name": "LA SERENA"
+      },
+      {
+        "id": 36,
+        "name": "COQUIMBO"
+      },
+      {
+        "id": 37,
+        "name": "ANDACOLLO"
+      },
+      {
+        "id": 38,
+        "name": "LA HIGUERA"
+      },
+      {
+        "id": 39,
+        "name": "PAIHUANO"
+      },
+      {
+        "id": 40,
+        "name": "VICUÑA"
+      },
+      {
+        "id": 41,
+        "name": "ILLAPEL"
+      },
+      {
+        "id": 42,
+        "name": "CANELA"
+      },
+      {
+        "id": 43,
+        "name": "LOS VILOS"
+      },
+      {
+        "id": 44,
+        "name": "SALAMANCA"
+      },
+      {
+        "id": 45,
+        "name": "OVALLE"
+      },
+      {
+        "id": 46,
+        "name": "COMBARBALA"
+      },
+      {
+        "id": 47,
+        "name": "MONTE PATRIA"
+      },
+      {
+        "id": 48,
+        "name": "PUNITAQUI"
+      },
+      {
+        "id": 49,
+        "name": "RIO HURTADO"
+      },
+      {
+        "id": 50,
+        "name": "VALPARAISO"
+      },
+      {
+        "id": 51,
+        "name": "CASABLANCA"
+      },
+      {
+        "id": 52,
+        "name": "CONCON"
+      },
+      {
+        "id": 53,
+        "name": "JUAN FERNANDEZ"
+      },
+      {
+        "id": 54,
+        "name": "PUCHUNCAVI"
+      },
+      {
+        "id": 55,
+        "name": "EX-QUILPUE"
+      },
+      {
+        "id": 56,
+        "name": "QUINTERO"
+      },
+      {
+        "id": 57,
+        "name": "EX-VILLA ALEMANA"
+      },
+      {
+        "id": 58,
+        "name": "VIÑA DEL MAR"
+      },
+      {
+        "id": 59,
+        "name": "ISLA DE PASCUA"
+      },
+      {
+        "id": 60,
+        "name": "LOS ANDES"
+      },
+      {
+        "id": 61,
+        "name": "CALLE LARGA"
+      },
+      {
+        "id": 62,
+        "name": "RINCONADA"
+      },
+      {
+        "id": 63,
+        "name": "SAN ESTEBAN"
+      },
+      {
+        "id": 64,
+        "name": "LA LIGUA"
+      },
+      {
+        "id": 65,
+        "name": "CABILDO"
+      },
+      {
+        "id": 66,
+        "name": "PAPUDO"
+      },
+      {
+        "id": 67,
+        "name": "PETORCA"
+      },
+      {
+        "id": 68,
+        "name": "ZAPALLAR"
+      },
+      {
+        "id": 69,
+        "name": "QUILLOTA"
+      },
+      {
+        "id": 70,
+        "name": "CALERA"
+      },
+      {
+        "id": 71,
+        "name": "HIJUELAS"
+      },
+      {
+        "id": 72,
+        "name": "LA CRUZ"
+      },
+      {
+        "id": 73,
+        "name": "EX-LIMACHE"
+      },
+      {
+        "id": 74,
+        "name": "NOGALES"
+      },
+      {
+        "id": 75,
+        "name": "EX-OLMUE"
+      },
+      {
+        "id": 76,
+        "name": "SAN ANTONIO"
+      },
+      {
+        "id": 77,
+        "name": "ALGARROBO"
+      },
+      {
+        "id": 78,
+        "name": "CARTAGENA"
+      },
+      {
+        "id": 79,
+        "name": "EL QUISCO"
+      },
+      {
+        "id": 80,
+        "name": "EL TABO"
+      },
+      {
+        "id": 81,
+        "name": "SANTO DOMINGO"
+      },
+      {
+        "id": 82,
+        "name": "SAN FELIPE"
+      },
+      {
+        "id": 83,
+        "name": "CATEMU"
+      },
+      {
+        "id": 84,
+        "name": "LLAILLAY"
+      },
+      {
+        "id": 85,
+        "name": "PANQUEHUE"
+      },
+      {
+        "id": 86,
+        "name": "PUTAENDO"
+      },
+      {
+        "id": 87,
+        "name": "SANTA MARIA"
+      },
+      {
+        "id": 88,
+        "name": "QUILPUE"
+      },
+      {
+        "id": 89,
+        "name": "LIMACHE"
+      },
+      {
+        "id": 90,
+        "name": "OLMUE"
+      },
+      {
+        "id": 91,
+        "name": "VILLA ALEMANA"
+      },
+      {
+        "id": 92,
+        "name": "RANCAGUA"
+      },
+      {
+        "id": 93,
+        "name": "CODEGUA"
+      },
+      {
+        "id": 94,
+        "name": "COINCO"
+      },
+      {
+        "id": 95,
+        "name": "COLTAUCO"
+      },
+      {
+        "id": 96,
+        "name": "DOÑIHUE"
+      },
+      {
+        "id": 97,
+        "name": "GRANEROS"
+      },
+      {
+        "id": 98,
+        "name": "LAS CABRAS"
+      },
+      {
+        "id": 99,
+        "name": "MACHALI"
+      },
+      {
+        "id": 100,
+        "name": "MALLOA"
+      },
+      {
+        "id": 101,
+        "name": "MOSTAZAL"
+      },
+      {
+        "id": 102,
+        "name": "OLIVAR"
+      },
+      {
+        "id": 103,
+        "name": "PEUMO"
+      },
+      {
+        "id": 104,
+        "name": "PICHIDEGUA"
+      },
+      {
+        "id": 105,
+        "name": "QUINTA DE TILCOCO"
+      },
+      {
+        "id": 106,
+        "name": "RENGO"
+      },
+      {
+        "id": 107,
+        "name": "REQUINOA"
+      },
+      {
+        "id": 108,
+        "name": "SAN VICENTE"
+      },
+      {
+        "id": 109,
+        "name": "PICHILEMU"
+      },
+      {
+        "id": 110,
+        "name": "LA ESTRELLA"
+      },
+      {
+        "id": 111,
+        "name": "LITUECHE"
+      },
+      {
+        "id": 112,
+        "name": "MARCHIHUE"
+      },
+      {
+        "id": 113,
+        "name": "NAVIDAD"
+      },
+      {
+        "id": 114,
+        "name": "PAREDONES"
+      },
+      {
+        "id": 115,
+        "name": "SAN FERNANDO"
+      },
+      {
+        "id": 116,
+        "name": "CHEPICA"
+      },
+      {
+        "id": 117,
+        "name": "CHIMBARONGO"
+      },
+      {
+        "id": 118,
+        "name": "LOLOL"
+      },
+      {
+        "id": 119,
+        "name": "NANCAGUA"
+      },
+      {
+        "id": 120,
+        "name": "PALMILLA"
+      },
+      {
+        "id": 121,
+        "name": "PERALILLO"
+      },
+      {
+        "id": 122,
+        "name": "PLACILLA"
+      },
+      {
+        "id": 123,
+        "name": "PUMANQUE"
+      },
+      {
+        "id": 124,
+        "name": "SANTA CRUZ"
+      },
+      {
+        "id": 125,
+        "name": "TALCA"
+      },
+      {
+        "id": 126,
+        "name": "CONSTITUCION"
+      },
+      {
+        "id": 127,
+        "name": "CUREPTO"
+      },
+      {
+        "id": 128,
+        "name": "EMPEDRADO"
+      },
+      {
+        "id": 129,
+        "name": "MAULE"
+      },
+      {
+        "id": 130,
+        "name": "PELARCO"
+      },
+      {
+        "id": 131,
+        "name": "PENCAHUE"
+      },
+      {
+        "id": 132,
+        "name": "RIO CLARO"
+      },
+      {
+        "id": 133,
+        "name": "SAN CLEMENTE"
+      },
+      {
+        "id": 134,
+        "name": "SAN RAFAEL"
+      },
+      {
+        "id": 135,
+        "name": "CAUQUENES"
+      },
+      {
+        "id": 136,
+        "name": "CHANCO"
+      },
+      {
+        "id": 137,
+        "name": "PELLUHUE"
+      },
+      {
+        "id": 138,
+        "name": "CURICO"
+      },
+      {
+        "id": 139,
+        "name": "HUALAÑE"
+      },
+      {
+        "id": 140,
+        "name": "LICANTEN"
+      },
+      {
+        "id": 141,
+        "name": "MOLINA"
+      },
+      {
+        "id": 142,
+        "name": "RAUCO"
+      },
+      {
+        "id": 143,
+        "name": "ROMERAL"
+      },
+      {
+        "id": 144,
+        "name": "SAGRADA FAMILIA"
+      },
+      {
+        "id": 145,
+        "name": "TENO"
+      },
+      {
+        "id": 146,
+        "name": "VICHUQUEN"
+      },
+      {
+        "id": 147,
+        "name": "LINARES"
+      },
+      {
+        "id": 148,
+        "name": "COLBUN"
+      },
+      {
+        "id": 149,
+        "name": "LONGAVI"
+      },
+      {
+        "id": 150,
+        "name": "PARRAL"
+      },
+      {
+        "id": 151,
+        "name": "RETIRO"
+      },
+      {
+        "id": 152,
+        "name": "SAN JAVIER"
+      },
+      {
+        "id": 153,
+        "name": "VILLA ALEGRE"
+      },
+      {
+        "id": 154,
+        "name": "YERBAS BUENAS"
+      },
+      {
+        "id": 155,
+        "name": "CONCEPCION"
+      },
+      {
+        "id": 156,
+        "name": "CORONEL"
+      },
+      {
+        "id": 157,
+        "name": "CHIGUAYANTE"
+      },
+      {
+        "id": 158,
+        "name": "FLORIDA"
+      },
+      {
+        "id": 159,
+        "name": "HUALQUI"
+      },
+      {
+        "id": 160,
+        "name": "LOTA"
+      },
+      {
+        "id": 161,
+        "name": "PENCO"
+      },
+      {
+        "id": 162,
+        "name": "SAN PEDRO DE LA PAZ"
+      },
+      {
+        "id": 163,
+        "name": "SANTA JUANA"
+      },
+      {
+        "id": 164,
+        "name": "TALCAHUANO"
+      },
+      {
+        "id": 165,
+        "name": "TOME"
+      },
+      {
+        "id": 166,
+        "name": "HUALPEN"
+      },
+      {
+        "id": 167,
+        "name": "LEBU"
+      },
+      {
+        "id": 168,
+        "name": "ARAUCO"
+      },
+      {
+        "id": 169,
+        "name": "CAÑETE"
+      },
+      {
+        "id": 170,
+        "name": "CONTULMO"
+      },
+      {
+        "id": 171,
+        "name": "CURANILAHUE"
+      },
+      {
+        "id": 172,
+        "name": "LOS ALAMOS"
+      },
+      {
+        "id": 173,
+        "name": "TIRUA"
+      },
+      {
+        "id": 174,
+        "name": "LOS ANGELES"
+      },
+      {
+        "id": 175,
+        "name": "ANTUCO"
+      },
+      {
+        "id": 176,
+        "name": "CABRERO"
+      },
+      {
+        "id": 177,
+        "name": "LAJA"
+      },
+      {
+        "id": 178,
+        "name": "MULCHEN"
+      },
+      {
+        "id": 179,
+        "name": "NACIMIENTO"
+      },
+      {
+        "id": 180,
+        "name": "NEGRETE"
+      },
+      {
+        "id": 181,
+        "name": "QUILACO"
+      },
+      {
+        "id": 182,
+        "name": "QUILLECO"
+      },
+      {
+        "id": 183,
+        "name": "SAN ROSENDO"
+      },
+      {
+        "id": 184,
+        "name": "SANTA BARBARA"
+      },
+      {
+        "id": 185,
+        "name": "TUCAPEL"
+      },
+      {
+        "id": 186,
+        "name": "YUMBEL"
+      },
+      {
+        "id": 187,
+        "name": "ALTO BIO BIO"
+      },
+      {
+        "id": 188,
+        "name": "CHILLAN"
+      },
+      {
+        "id": 189,
+        "name": "BULNES"
+      },
+      {
+        "id": 190,
+        "name": "COBQUECURA"
+      },
+      {
+        "id": 191,
+        "name": "COELEMU"
+      },
+      {
+        "id": 192,
+        "name": "COIHUECO"
+      },
+      {
+        "id": 193,
+        "name": "CHILLAN VIEJO"
+      },
+      {
+        "id": 194,
+        "name": "EL CARMEN"
+      },
+      {
+        "id": 195,
+        "name": "NINHUE"
+      },
+      {
+        "id": 196,
+        "name": "ÑIQUEN"
+      },
+      {
+        "id": 197,
+        "name": "PEMUCO"
+      },
+      {
+        "id": 198,
+        "name": "PINTO"
+      },
+      {
+        "id": 199,
+        "name": "PORTEZUELO"
+      },
+      {
+        "id": 200,
+        "name": "QUILLON"
+      },
+      {
+        "id": 201,
+        "name": "QUIRIHUE"
+      },
+      {
+        "id": 202,
+        "name": "RANQUIL"
+      },
+      {
+        "id": 203,
+        "name": "SAN CARLOS"
+      },
+      {
+        "id": 204,
+        "name": "SAN FABIAN"
+      },
+      {
+        "id": 205,
+        "name": "SAN IGNACIO"
+      },
+      {
+        "id": 206,
+        "name": "SAN NICOLAS"
+      },
+      {
+        "id": 207,
+        "name": "TREHUACO"
+      },
+      {
+        "id": 208,
+        "name": "YUNGAY"
+      },
+      {
+        "id": 209,
+        "name": "TEMUCO"
+      },
+      {
+        "id": 210,
+        "name": "CARAHUE"
+      },
+      {
+        "id": 211,
+        "name": "CUNCO"
+      },
+      {
+        "id": 212,
+        "name": "CURARREHUE"
+      },
+      {
+        "id": 213,
+        "name": "FREIRE"
+      },
+      {
+        "id": 214,
+        "name": "GALVARINO"
+      },
+      {
+        "id": 215,
+        "name": "GORBEA"
+      },
+      {
+        "id": 216,
+        "name": "LAUTARO"
+      },
+      {
+        "id": 217,
+        "name": "LONCOCHE"
+      },
+      {
+        "id": 218,
+        "name": "MELIPEUCO"
+      },
+      {
+        "id": 219,
+        "name": "NUEVA IMPERIAL"
+      },
+      {
+        "id": 220,
+        "name": "PADRE LAS CASAS"
+      },
+      {
+        "id": 221,
+        "name": "PERQUENCO"
+      },
+      {
+        "id": 222,
+        "name": "PITRUFQUEN"
+      },
+      {
+        "id": 223,
+        "name": "PUCON"
+      },
+      {
+        "id": 224,
+        "name": "SAAVEDRA"
+      },
+      {
+        "id": 225,
+        "name": "TEODORO SCHMIDT"
+      },
+      {
+        "id": 226,
+        "name": "TOLTEN"
+      },
+      {
+        "id": 227,
+        "name": "VILCUN"
+      },
+      {
+        "id": 228,
+        "name": "VILLARRICA"
+      },
+      {
+        "id": 229,
+        "name": "CHOL CHOL"
+      },
+      {
+        "id": 230,
+        "name": "ANGOL"
+      },
+      {
+        "id": 231,
+        "name": "COLLIPULLI"
+      },
+      {
+        "id": 232,
+        "name": "CURACAUTIN"
+      },
+      {
+        "id": 233,
+        "name": "ERCILLA"
+      },
+      {
+        "id": 234,
+        "name": "LONQUIMAY"
+      },
+      {
+        "id": 235,
+        "name": "LOS SAUCES"
+      },
+      {
+        "id": 236,
+        "name": "LUMACO"
+      },
+      {
+        "id": 237,
+        "name": "PUREN"
+      },
+      {
+        "id": 238,
+        "name": "RENAICO"
+      },
+      {
+        "id": 239,
+        "name": "TRAIGUEN"
+      },
+      {
+        "id": 240,
+        "name": "VICTORIA"
+      },
+      {
+        "id": 241,
+        "name": "PUERTO MONTT"
+      },
+      {
+        "id": 242,
+        "name": "CALBUCO"
+      },
+      {
+        "id": 243,
+        "name": "COCHAMO"
+      },
+      {
+        "id": 244,
+        "name": "FRESIA"
+      },
+      {
+        "id": 245,
+        "name": "FRUTILLAR"
+      },
+      {
+        "id": 246,
+        "name": "LOS MUERMOS"
+      },
+      {
+        "id": 247,
+        "name": "LLANQUIHUE"
+      },
+      {
+        "id": 248,
+        "name": "MAULLIN"
+      },
+      {
+        "id": 249,
+        "name": "PUERTO VARAS"
+      },
+      {
+        "id": 250,
+        "name": "CASTRO"
+      },
+      {
+        "id": 251,
+        "name": "ANCUD"
+      },
+      {
+        "id": 252,
+        "name": "CHONCHI"
+      },
+      {
+        "id": 253,
+        "name": "CURACO DE VELEZ"
+      },
+      {
+        "id": 254,
+        "name": "DALCAHUE"
+      },
+      {
+        "id": 255,
+        "name": "PUQUELDON"
+      },
+      {
+        "id": 256,
+        "name": "QUEILEN"
+      },
+      {
+        "id": 257,
+        "name": "QUELLON"
+      },
+      {
+        "id": 258,
+        "name": "QUEMCHI"
+      },
+      {
+        "id": 259,
+        "name": "QUINCHAO"
+      },
+      {
+        "id": 260,
+        "name": "OSORNO"
+      },
+      {
+        "id": 261,
+        "name": "PUERTO OCTAY"
+      },
+      {
+        "id": 262,
+        "name": "PURRANQUE"
+      },
+      {
+        "id": 263,
+        "name": "PUYEHUE"
+      },
+      {
+        "id": 264,
+        "name": "RIO NEGRO"
+      },
+      {
+        "id": 265,
+        "name": "SAN JUAN DE LA COSTA"
+      },
+      {
+        "id": 266,
+        "name": "SAN PABLO"
+      },
+      {
+        "id": 267,
+        "name": "CHAITEN"
+      },
+      {
+        "id": 268,
+        "name": "FUTALEUFU"
+      },
+      {
+        "id": 269,
+        "name": "HUALAIHUE"
+      },
+      {
+        "id": 270,
+        "name": "PALENA"
+      },
+      {
+        "id": 271,
+        "name": "VALDIVIA"
+      },
+      {
+        "id": 272,
+        "name": "CORRAL"
+      },
+      {
+        "id": 273,
+        "name": "FUTRONO"
+      },
+      {
+        "id": 274,
+        "name": "LA UNION"
+      },
+      {
+        "id": 275,
+        "name": "LAGO RANCO"
+      },
+      {
+        "id": 276,
+        "name": "LANCO"
+      },
+      {
+        "id": 277,
+        "name": "LOS LAGOS"
+      },
+      {
+        "id": 278,
+        "name": "MAFIL"
+      },
+      {
+        "id": 279,
+        "name": "MARIQUINA"
+      },
+      {
+        "id": 280,
+        "name": "PAILLACO"
+      },
+      {
+        "id": 281,
+        "name": "PANGUIPULLI"
+      },
+      {
+        "id": 282,
+        "name": "RIO BUENO"
+      },
+      {
+        "id": 283,
+        "name": "COYHAIQUE"
+      },
+      {
+        "id": 284,
+        "name": "LAGO VERDE"
+      },
+      {
+        "id": 285,
+        "name": "AYSEN"
+      },
+      {
+        "id": 286,
+        "name": "CISNES"
+      },
+      {
+        "id": 287,
+        "name": "GUAITECAS"
+      },
+      {
+        "id": 288,
+        "name": "COCHRANE"
+      },
+      {
+        "id": 289,
+        "name": "O HIGGINS"
+      },
+      {
+        "id": 290,
+        "name": "TORTEL"
+      },
+      {
+        "id": 291,
+        "name": "CHILE CHICO"
+      },
+      {
+        "id": 292,
+        "name": "RIO IBAÑEZ"
+      },
+      {
+        "id": 293,
+        "name": "PUNTA ARENAS"
+      },
+      {
+        "id": 294,
+        "name": "LAGUNA BLANCA"
+      },
+      {
+        "id": 295,
+        "name": "RIO VERDE"
+      },
+      {
+        "id": 296,
+        "name": "SAN GREGORIO"
+      },
+      {
+        "id": 297,
+        "name": "CABO DE HORNOS"
+      },
+      {
+        "id": 298,
+        "name": "ANTARTICA"
+      },
+      {
+        "id": 299,
+        "name": "CABO DE HORNOS"
+      },
+      {
+        "id": 300,
+        "name": "PORVENIR"
+      },
+      {
+        "id": 301,
+        "name": "PRIMAVERA"
+      },
+      {
+        "id": 302,
+        "name": "TIMAUKEL"
+      },
+      {
+        "id": 303,
+        "name": "NATALES"
+      },
+      {
+        "id": 304,
+        "name": "TORRES DEL PAINE"
+      },
+      {
+        "id": 305,
+        "name": "SANTIAGO"
+      },
+      {
+        "id": 306,
+        "name": "CERRILLOS"
+      },
+      {
+        "id": 307,
+        "name": "CERRO NAVIA"
+      },
+      {
+        "id": 308,
+        "name": "CONCHALI"
+      },
+      {
+        "id": 309,
+        "name": "EL BOSQUE"
+      },
+      {
+        "id": 310,
+        "name": "ESTACION CENTRAL"
+      },
+      {
+        "id": 311,
+        "name": "HUECHURABA"
+      },
+      {
+        "id": 312,
+        "name": "INDEPENDENCIA"
+      },
+      {
+        "id": 313,
+        "name": "LA CISTERNA"
+      },
+      {
+        "id": 314,
+        "name": "LA FLORIDA"
+      },
+      {
+        "id": 315,
+        "name": "LA GRANJA"
+      },
+      {
+        "id": 316,
+        "name": "LA PINTANA"
+      },
+      {
+        "id": 317,
+        "name": "LA REINA"
+      },
+      {
+        "id": 318,
+        "name": "LAS CONDES"
+      },
+      {
+        "id": 319,
+        "name": "LO BARNECHEA"
+      },
+      {
+        "id": 320,
+        "name": "LO ESPEJO"
+      },
+      {
+        "id": 321,
+        "name": "LO PRADO"
+      },
+      {
+        "id": 322,
+        "name": "MACUL"
+      },
+      {
+        "id": 323,
+        "name": "MAIPU"
+      },
+      {
+        "id": 324,
+        "name": "ÑUÑOA"
+      },
+      {
+        "id": 325,
+        "name": "PEDRO AGUIRRE CERDA"
+      },
+      {
+        "id": 326,
+        "name": "PEÑALOLEN"
+      },
+      {
+        "id": 327,
+        "name": "PROVIDENCIA"
+      },
+      {
+        "id": 328,
+        "name": "PUDAHUEL"
+      },
+      {
+        "id": 329,
+        "name": "QUILICURA"
+      },
+      {
+        "id": 330,
+        "name": "QUINTA NORMAL"
+      },
+      {
+        "id": 331,
+        "name": "RECOLETA"
+      },
+      {
+        "id": 332,
+        "name": "RENCA"
+      },
+      {
+        "id": 333,
+        "name": "SAN JOAQUIN"
+      },
+      {
+        "id": 334,
+        "name": "SAN MIGUEL"
+      },
+      {
+        "id": 335,
+        "name": "SAN RAMON"
+      },
+      {
+        "id": 336,
+        "name": "VITACURA"
+      },
+      {
+        "id": 337,
+        "name": "PUENTE ALTO"
+      },
+      {
+        "id": 338,
+        "name": "PIRQUE"
+      },
+      {
+        "id": 339,
+        "name": "SAN JOSE DE MAIPO"
+      },
+      {
+        "id": 340,
+        "name": "COLINA"
+      },
+      {
+        "id": 341,
+        "name": "LAMPA"
+      },
+      {
+        "id": 342,
+        "name": "TIL TIL"
+      },
+      {
+        "id": 343,
+        "name": "SAN BERNARDO"
+      },
+      {
+        "id": 344,
+        "name": "BUIN"
+      },
+      {
+        "id": 345,
+        "name": "CALERA DE TANGO"
+      },
+      {
+        "id": 346,
+        "name": "PAINE"
+      },
+      {
+        "id": 347,
+        "name": "MELIPILLA"
+      },
+      {
+        "id": 348,
+        "name": "ALHUE"
+      },
+      {
+        "id": 349,
+        "name": "CURACAVI"
+      },
+      {
+        "id": 350,
+        "name": "MARIA PINTO"
+      },
+      {
+        "id": 351,
+        "name": "SAN PEDRO"
+      },
+      {
+        "id": 352,
+        "name": "TALAGANTE"
+      },
+      {
+        "id": 353,
+        "name": "EL MONTE"
+      },
+      {
+        "id": 354,
+        "name": "ISLA DE MAIPO"
+      },
+      {
+        "id": 355,
+        "name": "PADRE HURTADO"
+      },
+      {
+        "id": 356,
+        "name": "PEÑAFLOR"
+      },
+      {
+        "id": 357,
+        "name": "VALDIVIA"
+      },
+      {
+        "id": 358,
+        "name": "CORRAL"
+      },
+      {
+        "id": 359,
+        "name": "LANCO"
+      },
+      {
+        "id": 360,
+        "name": "LOS LAGOS"
+      },
+      {
+        "id": 361,
+        "name": "MAFIL"
+      },
+      {
+        "id": 362,
+        "name": "MARIQUINA"
+      },
+      {
+        "id": 363,
+        "name": "PAILLACO"
+      },
+      {
+        "id": 364,
+        "name": "PANGUIPULLI"
+      },
+      {
+        "id": 365,
+        "name": "LA UNION"
+      },
+      {
+        "id": 366,
+        "name": "FUTRONO"
+      },
+      {
+        "id": 367,
+        "name": "LAGO RANCO"
+      },
+      {
+        "id": 368,
+        "name": "RIO BUENO"
+      },
+      {
+        "id": 369,
+        "name": "ARICA"
+      },
+      {
+        "id": 370,
+        "name": "CAMARONES"
+      },
+      {
+        "id": 371,
+        "name": "PUTRE"
+      },
+      {
+        "id": 372,
+        "name": "GENERAL LAGOS"
+      },
+      {
+        "id": 373,
+        "name": "YUNGAY"
+      },
+      {
+        "id": 374,
+        "name": "PEMUCO"
+      },
+      {
+        "id": 375,
+        "name": "EL CARMEN"
+      },
+      {
+        "id": 376,
+        "name": "SAN IGNACIO"
+      },
+      {
+        "id": 377,
+        "name": "BULNES"
+      },
+      {
+        "id": 378,
+        "name": "QUILLÓN"
+      },
+      {
+        "id": 379,
+        "name": "PINTO"
+      },
+      {
+        "id": 380,
+        "name": "CHILLÁN VIEJO"
+      },
+      {
+        "id": 381,
+        "name": "RÁNQUIL"
+      },
+      {
+        "id": 382,
+        "name": "CHILLÁN"
+      },
+      {
+        "id": 383,
+        "name": "COIHUECO"
+      },
+      {
+        "id": 384,
+        "name": "PORTEZUELO"
+      },
+      {
+        "id": 385,
+        "name": "COELEMU"
+      },
+      {
+        "id": 386,
+        "name": "SAN FABIÁN"
+      },
+      {
+        "id": 387,
+        "name": "SAN NICOLÁS"
+      },
+      {
+        "id": 388,
+        "name": "TREGUACO"
+      },
+      {
+        "id": 389,
+        "name": "NINHUE"
+      },
+      {
+        "id": 390,
+        "name": "SAN CARLOS"
+      },
+      {
+        "id": 391,
+        "name": "COBQUECURA"
+      },
+      {
+        "id": 392,
+        "name": "ÑIQUÉN"
+      },
+      {
+        "id": 393,
+        "name": "QUIRIHUE"
+      }
+    ]
+  }
+}
